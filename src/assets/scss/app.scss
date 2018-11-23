@@ -14,3 +14,27 @@
     background-color: $dark-gray !important;
   }
 }
+
+// Clases para presentation
+.presentation {
+  &-title {
+    color: $black;
+  }
+
+  &-subtitle {
+    color: $dark-gray;
+  }
+}
+
+.paragraph { color: $black; }
+
+// Clases de utilidad
+.text-align {
+  &--center {
+    text-align: center;
+  }
+}
+
+.margin-bottom--remove {
+  margin-bottom: 0;
+}

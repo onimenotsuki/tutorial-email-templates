@@ -5,51 +5,83 @@ subject: My Email Templates
 
 <spacer size="16"></spacer>
 
-<container>
-
-  <spacer size="24"></spacer>
-  
+<!-- Contenedor para el encabezado -->
+<container class="container-header">
+  <spacer size="50"></spacer>
   <row>
-    <columns small="12">
+    <columns>
+      <center>
+        <img src="https://placehold.it/150x50?text=logo" alt="image of clever meme that made me chuckle">
+      </center>
+    </columns>
+  </row>
+  <spacer size="30"></spacer>
+</container>
 
-    <p class="lead">Hi there!</p>
-    <p style="color: #484848; line-height: 1.5;">Thanks for downloading <a href="http://foundation.zurb.com/emails/docs/">Foundation for Emails!</a> Your days of coding up painful HTML emails are officially over. You’ll soon be cranking out some slick, responsive emails in no time! To help get you up and running, we've put together 11 templates for the most common email use cases including newsletters, transactional emails, and marketing blasts. Feel free to customize them to your hearts content.</p>
+<!-- Contenedor para el contenido principal -->
+<spacer size="20"></spacer>
+<container class="container-content">
+  <!-- Texto -->
+  <row>
+    <colums>
+      <p
+        class="presentation-subtitle margin-bottom--remove text-align--center"
+      >
+        Sem et tortor!
+      </p>
+      <h4 class="presentation-title text-align--center">
+        Lectus arcu, bibendum.
+      </h4>
+    </colums>
+  </row>
+  <spacer size="15"></spacer>
 
-    <spacer size="16"></spacer>
+  <!-- Imágenes -->
+  <row>
+    <columns small="12" large="12">
+      <center>
+        <img src="https://placehold.it/600?text=image" alt="Nam vestibulum accumsan nisl.">
+      </center>
+    </columns>
+  </row>
+  <row>
+    <columns small="12" large="6">
+      <center>
+        <img src="https://placehold.it/300?text=image" alt="Nullam libero mauris, consequat quis, varius et, dictum id, arcu.">
+      </center>
+    </columns>
+    <columns small="12" large="6">
+      <center>
+        <img src="https://placehold.it/300?text=image" alt="Etiam laoreet quam sed arcu.">
+      </center>
+    </columns>
+  </row>
 
-    <center>
-      <menu class="vertical">
-        <item href="{{root}}basic.html" target="_blank">Basic Template</item>
-        <item href="{{root}}drip.html" target="_blank">Drip Template</item>
-        <item href="{{root}}hero.html" target="_blank">Hero Template</item>
-        <item href="{{root}}marketing.html" target="_blank">Marketing Template</item>
-        <item href="{{root}}newsletter.html" target="_blank">Newsletter Template</item>
-        <item href="{{root}}newsletter-2.html" target="_blank">Newsletter 2 Template</item>
-        <item href="{{root}}order.html" target="_blank">Order Template</item>
-        <item href="{{root}}password.html" target="_blank">Password Template</item>
-        <item href="{{root}}sidebar.html" target="_blank">Sidebar Template</item>
-        <item href="{{root}}sidebar-hero.html" target="_blank">Sidebar Hero Template</item>
-        <item href="{{root}}welcome.html" target="_blank">Welcome Template</item>
-      </menu>
-    </center>
+  <!-- Texto final -->
+  <spacer size="10"></spacer>
+  <row>
+    <columns>
+      <p class="paragraph">
+        Volutpat odio facilisis mauris sit amet massa vitae tortor condimentum.
+        <a href="">Nisl nunc mi ipsum, faucibus?</a>
+      </p>
+    </columns>
+  </row>
+</container>
+<spacer size="20"></spacer>
 
-    <spacer size="16"></spacer>
-
-    <p>Happy Coding,</p>
-    <p>The Foundation Team</p>
-
-
-    <spacer size="16"></spacer>
-
+<!-- Contenedor para el pie de página -->
+<container class="container-footer">
+  <spacer size="20"></spacer>
+  <row>
+    <columns>
+      <row>
+        <columns>
+          <p>Pie de página</p>
+        </columns>
+      </row>
     </columns>
   </row>
 </container>
 
 <spacer size="16"></spacer>
-
-<center>
-  <small>Keep on keepin' on. &lt;3 <a style="color: #cacaca; text-decoration: underline;" href="http://zurb.com/">ZURB</a> </small>
-</center>
-
-<spacer size="16"></spacer>
-
