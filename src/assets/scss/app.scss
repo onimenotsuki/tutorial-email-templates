@@ -1,4 +1,16 @@
 @import 'settings';
 @import 'foundation-emails';
 
-@import 'template/template';
+.container {
+  &-header {
+    background-color: $light-gray !important;
+  }
+
+  &-content {
+    background-color: $white !important;
+  }
+
+  &-footer {
+    background-color: $dark-gray !important;
+  }
+}
