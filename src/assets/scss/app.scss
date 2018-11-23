@@ -26,7 +26,15 @@
   }
 }
 
-.paragraph { color: $black; }
+.paragraph {
+  color: $black;
+
+  &--white {
+    color: $white;
+    small { color: inherit; }
+  }
+}
+
 
 // Clases de utilidad
 .text-align {
@@ -37,4 +45,11 @@
 
 .margin-bottom--remove {
   margin-bottom: 0;
+}
+
+// Imágenes
+.social-logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
 }
